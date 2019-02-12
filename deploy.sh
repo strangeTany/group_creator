@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # переход в каталог сборки
-cd dist
+cd C:/Users/strange.tany/Desktop/groups/groups
 
 # если вы публикуете на пользовательский домен
 # echo 'www.example.com' > CNAME
@@ -22,4 +22,4 @@ git commit -m 'deploy'
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:strangeTany/group_creator.git master:gh-pages
 
-cd -
+cd C:/Users/strange.tany/Desktop/groups/groups
